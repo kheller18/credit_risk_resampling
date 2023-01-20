@@ -34,7 +34,7 @@ From looking at this, we can understand that using the Random Oversampling model
   If you would like to clone the repository, type "git clone https://github.com/kheller18/credit_risk_resampling.git".
   In the terminal, with the conda dev environment activated, install the following packages and dependencies before running the crime analysis application. To understand how to install these, refer to the [Usage](#2-usage)
 
-  * [csv](https://docs.python.org/3/library/csv.html) - Used to store all of our SPD data
+  * [csv](https://docs.python.org/3/library/csv.html) - Used to store data
 
   * [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/) - *version 3.4.4* - Used to create and share documents that contain live code, equations, visualizations and narrative text.
 
