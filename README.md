@@ -91,7 +91,6 @@ From looking at this, we can understand that using the Random Oversampling model
   SOFTWARE.
 
 
-
 ## 4. Contributing
 
   + [Keenan Heller](https://github.com/kheller18)
