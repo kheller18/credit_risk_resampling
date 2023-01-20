@@ -12,6 +12,8 @@ After doing predictive analysis using both models, we found accuracy scores for 
   * Imbalanced Data Balanced Accuracy Score: ~95%
   * Randomly Oversampled Data Balanced Accuracy Score: ~99%
 
+From looking at this, we can understand that using the Random Oversampling model is better than the alternative method we compared.
+
 
 ## Table of Contents
 
@@ -101,6 +103,7 @@ After doing predictive analysis using both models, we found accuracy scores for 
 
 
 ## 6. Deployment
+
   + There is currently no live deployment of this notebook on a common server, but the user has the ability to run this notebook locally on their machine via:
     + `Jupyter Lab`: Navigate to root of the directory and type "jupyter lab credit_risk_resampling.ipynb".
 
