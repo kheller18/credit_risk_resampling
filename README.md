@@ -1,26 +1,18 @@
-# credit_risk_resampling
+# Credit Risk Resampling
 
 ![license badge](https://shields.io/badge/license-mit-blue)
 
 
 ## Description
 
-This project aims to analyze and predict Google Search traffic for Mercado Libre and understand how it corresponds to stock price. You can find the full notebook in the following link: [Google Colab](https://colab.research.google.com/drive/1NjAByhL7P6VcBBCj2_USxRy8g97WGCsO#scrollTo=XobvBTMTe4CC).
+This project aims to compare two diffrent logistic regression models. One trains with imbalanced data and one used random oversampling with the goal of finding out differences in their respecitive predictive performances. The dataset is viewed below.
+![application screenshot](/Images/logistic_data.png)
 
-We start by looking at the search traffic by each week in the year of 2019.
-![application screenshot](/Images/average_traffic_wk_yr.png)
 
-We can see from above that there is a sharp increase in traffic before the new year and a sharp downturn after the new year.  Then, we can break our data down further to unerstand what days of the week and time are associated with high search traffic.
-![application screenshot](/Images/search_trends_hm.png)
-
-We can understand from the image above that the highest days for searching are Monday - Wednesday and specifically at about 10pm to 2am.  We then look at the daily sales to see if there's a correlation between the amount of Google traffic and sales.
-![application screenshot](/Images/daily_sales_2019_2020.png)
-
-Then, we look into creating a time series model with Prophet and try to understand expected profit, as well as lower and upper bounds.
 
 ## Table of Contents
 
-- [credit\_risk\_resampling](#credit_risk_resampling)
+- [Credit Risk Resampling](#credit-risk-resampling)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [1. Installation](#1-installation)
