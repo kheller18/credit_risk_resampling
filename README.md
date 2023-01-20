@@ -8,6 +8,9 @@
 This project aims to compare two diffrent logistic regression models. One trains with imbalanced data and one used random oversampling with the goal of finding out differences in their respecitive predictive performances. The dataset is viewed below.
 ![application screenshot](/Images/logistic_data.png)
 
+After doing predictive analysis using both models, we found accuracy scores for the two types of models:
+  * Imbalanced Data Balanced Accuracy Score: ~95%
+  * Randomly Oversampled Data Balanced Accuracy Score: ~99%
 
 
 ## Table of Contents
