@@ -1,7 +1,5 @@
 # credit_risk_resampling
 
-# Forecasting Net Prophet
-
 ![license badge](https://shields.io/badge/license-mit-blue)
 
 
@@ -23,7 +21,6 @@ Then, we look into creating a time series model with Prophet and try to understa
 ## Table of Contents
 
 - [credit\_risk\_resampling](#credit_risk_resampling)
-- [Forecasting Net Prophet](#forecasting-net-prophet)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [1. Installation](#1-installation)
@@ -37,28 +34,22 @@ Then, we look into creating a time series model with Prophet and try to understa
 
 ## 1. Installation
 
-  If you would like to clone the repository, type "git clone https://github.com/kheller18/.git".
+  If you would like to clone the repository, type "git clone https://github.com/kheller18/credit_risk_resampling.git".
   In the terminal, with the conda dev environment activated, install the following packages and dependencies before running the crime analysis application. To understand how to install these, refer to the [Usage](#2-usage)
 
   * [csv](https://docs.python.org/3/library/csv.html) - Used to store all of our SPD data
 
   * [Jupyter Lab](https://jupyterlab.readthedocs.io/en/stable/) - *version 3.4.4* - Used to create and share documents that contain live code, equations, visualizations and narrative text.
 
-  * [matplotlib](https://matplotlib.org/) - For the visualization of crime data.
-
-  * [pandas](https://pandas.pydata.org/docs/) - For the analysis of crime data.
+  * [pandas](https://pandas.pydata.org/docs/) - For data analysis.
 
   * [pathlib](https://docs.python.org/3/library/pathlib.html) - *version 1.0.1* - This was used to locate through the directory or file path.
 
-  * [PyVizlot](https://pyviz.org/) -  Python visualization package that provides a single platform for accessing multiple visualization libraries. Our most heavily used library is:
+  * [scikit-learn](https://scikit-learn.org/stable/) - *version 1.2* - Tools for data analysis
 
-    * [hvplot.pandas](https://hvplot.holoviz.org/user_guide/Introduction.html) - *version 0.7.2* - For the interactive visualization of the crime data.
+  * [imbalanced-learn](https://imbalanced-learn.org/stable/) - *version 0.10.1* - Tools for data analysis
 
-  * [PyStan](https://pystan.readthedocs.io/en/latest/) - *version 2.14* - used for statistical modeling.
-
-  * [fbProphet](https://pypi.org/project/fbprophet/) - *version 0.7.1*- used for automatic forecasting.
-
-  * [HoloViews](https://holoviews.org/) - *version 0.8.0* - used for analysis and visualization.
+  * [NumPy](https://numpy.org/) - *version 1.24.0*- Provides tools when dealing with classification with imbalanced classes
 
 
 ## 2. Usage
@@ -69,7 +60,9 @@ Then, we look into creating a time series model with Prophet and try to understa
       pip install pandas
       pip install hvplot
       pip install jupyterlab
-      conda install -c pyviz hvplot
+      pip install scikit-learn
+      pip install imbalanced-learn
+      pip install numpy
 
       ```
 
@@ -113,8 +106,8 @@ Then, we look into creating a time series model with Prophet and try to understa
 
 
 ## 6. Deployment
-  + There is currently no live deployment of this notebook on a common server, but the user has the ability to run this notebook locally on their machine via two different ways:
-    + `Google Colab`: Navigate to Google Colab and upload the root file "" into it.
+  + There is currently no live deployment of this notebook on a common server, but the user has the ability to run this notebook locally on their machine via:
+    + `Jupyter Lab`: Navigate to root of the directory and type "jupyter lab credit_risk_resampling.ipynb".
 
 
 ## 7. Contact
